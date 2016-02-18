@@ -1,0 +1,200 @@
+
+.line {
+	border-top: 2px solid orange;
+	height: 3px;
+	width: 100%;
+	margin-bottom:65px;
+}
+.question-title {
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.header {
+	margin-top: 10px;
+}
+
+.question-title {
+	text-align: center;
+}
+
+.lorena {
+	font-size: 220px;
+	text-align: center;
+	color: #D6D6D6;
+}
+@media only screen and (max-width: 767px) {
+	.lorena {
+		font-size:40px;
+	}
+	.ui.column.grid>[class*="index_table"].column, .ui.grid>.column.row>[class*="index_table"].column, .ui.grid>.row>[class*="index_table"].column, .ui.grid>[class*="index_table"].column {
+		width: 100% !important;
+	}
+	.ui.grid>.stackable.stackable.row>.column, .ui.stackable.grid>.column.grid>.column, .ui.stackable.grid>.column.row>.column, .ui.stackable.grid>.column:not(.row), .ui.stackable.grid>.row>.column, .ui.stackable.grid>.row>.wide.column, .ui.stackable.grid>.wide.column {
+		margin: initial !important;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		margin: 1rem !important;
+	} 
+	.index_votes {
+		font-size: 30px !important;
+	}
+	.content>h1 {
+		font-size: 40px !important;
+	}
+}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+	font-family: 'Open Sans', sans-serif !important;
+}
+.ui.card, .ui.cards>.card {
+	width: 100%;
+}
+.image {
+	height: 267px;
+	overflow:hidden;
+}
+.image img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.bar {
+	min-width: auto !important;
+}
+.bar-a {
+	background: #FFB150 !important;
+	float: left;
+	border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+}
+.bar-b {
+	float: left;
+	border-bottom-left-radius: 0 !important;
+	border-top-left-radius: 0 !important;
+	background: #6496CA !important;
+}
+.progress {
+	margin-top: 30px !important;
+	height: 25px;
+}
+.notification {
+	width: 250px;
+	margin-left: 40px;
+}
+.footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	bottom: 0;
+}
+.answer-image {
+	height: 357px !important;
+	background-repeat: no-repeat !important;
+	background-position: center top !important;
+	background-size: 357px !important;
+}
+.box-img {
+	height: 267px;
+	overflow: hidden;
+	position: relative
+}
+.box-img img {
+	display: block;position: absolute;left: 50%;top: 50%;transform: translate3d(-50%,-50%,0);
+}
+#customBtn {
+    background: #dd4b39;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    width: 242px;
+}
+.g-icon {
+    background: url("../img/gbt.png") transparent 50% no-repeat;
+    border-right: #bb3f30 1px solid;
+    display: inline-block;
+    height: 47px;
+    vertical-align: middle;
+    width: 57px;
+}
+.buttonText {
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+    vertical-align: middle;
+}
+#gSignInWrapper {
+	margin-top: 20px;
+}
+.checkmark {
+	background: #EEE;
+	color: green;
+}
+.votes_right {
+	float:right;
+}
+.votes_box {
+	height: 55px;
+	position: relative;
+	top: -55px;
+	width: 100%;
+	background: url(../img/shadow.png);
+	padding: 24px 15px;
+	color: white;
+	font-weight: bold;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+	word-break: break-word;font-size: 25px;
+}
+.save_bt {
+	background: initial;
+	pointer-events: auto !important;
+	cursor: pointer !important;
+}
+.titleA_edit,.titleB_edit {
+	width: 100%;
+}
+.author-box {
+	height: 80px;
+    margin-bottom: 25px;
+}
+.author-box h2 {
+	display: inline-block;
+	margin: 23px 23px !important;
+	margin-left: auto;
+}
+.author-box .image {
+	float: left;
+}
+.main_index {
+	margin-bottom: 50px;
+	text-align: center;
+}
+.image_index {
+	float: left;
+    margin-right: 40px;
+}
+.stats {
+    text-align: center;
+    float: left;
+	background: #F9F9F9;
+	margin-top: 14px;
+	border: 1px solid #F1F1F1;
+	margin: 1rem;
+}
+.index_votes {
+	font-size: 40px;
+    margin: 0;
+}
+.index_votes_text {
+	font-size: 23px;
+}
+.create_bt {
+	margin-top: 24px;
+}
+.main_index >.content {
+	display: inline-block;
+}

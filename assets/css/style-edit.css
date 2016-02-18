@@ -1,0 +1,12 @@
+.title_edit {
+	width: 100%;
+}
+.hide {
+	display:none !important;
+}
+
+.post_bt {
+	width: 100% !important;
+	text-align: center !important;
+	margin-top: 20px !important;
+}
