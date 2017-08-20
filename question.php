@@ -23,16 +23,6 @@ else {
 	</head>
 	<body>
 	<?php require_once("./inc/header.php"); ?>
-	<div class="ui container moneyTalks " style="text-align: center;margin-bottom: 20px; width: 100%;overflow: overlay">
-		<script type="text/javascript">
-			google_ad_client = "ca-pub-3097864491384952";
-			google_ad_slot = "5084287220";
-			google_ad_width = 728;
-			google_ad_height = 90;
-		</script>
-		<!-- Qual dos Dois -->
-		<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-	</div>
 		<div class="ui container">
 			<h1 class="question-title" style="margin-bottom: 10px;"><?php echo $question->getTitle(); ?></h1><div class="fb-share-button" data-href="<?php echo"http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" data-layout="button_count" style="float:right"></div>
 			<div class="ui stackable equal width grid">
@@ -115,18 +105,6 @@ else {
 					<div class="progress"></div>
 				</div>
 				<div class="label"><?php echo $question->getTitleA(); ?> <strong class="percent-a"><?php echo $percentA; ?></strong>% / <strong class="percent-b"><?php echo $percentB; ?></strong>% <?php echo $question->getTitleB(); ?></div>
-			</div>
-			<div align="center">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Qual dos dois Responsivo -->
-				<ins class="adsbygoogle"
-					 style="display:block"
-					 data-ad-client="ca-pub-3097864491384952"
-					 data-ad-slot="1086236429"
-					 data-ad-format="link"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
 			</div>
 			<h2>Argumente:</h2>
 			<div class="fb-comments" data-href="<?php echo"http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" data-width="100%" data-numposts="5"></div>
